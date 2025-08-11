@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /category/uncategorized/
+Disallow: /author/*
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /?testimonial_id=*
+Disallow: /author/
+Disallow: /category/
+Disallow: /wpt-testimonial/
+Disallow: /comments/
+Disallow: /appointment/
+Disallow: /about-us/
+Disallow: /testimonials/
+Disallow: /wpt-testimonial-category/
+Disallow: /?
+Disallow: /?*
+
+Sitemap: https://www.cleanwaterprosllc.com/sitemap.xml

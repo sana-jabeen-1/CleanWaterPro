@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ServiceFilration } from "@/data/service";
+import { ProductsSoftener, ServiceSoftener } from "@/data/service";
 import { ProductsFiltration } from "@/data/service";
 
 const WaterSoftener = () => {
@@ -13,8 +13,8 @@ const WaterSoftener = () => {
               <div className="col-xl-4 col-lg-8 order-2">
 
                  <div className="service-details__bottom-text1">
-              <p> F
-                Transform Your Home’s Wcater Quality with the Westinghouse
+              <p>
+                Transform Your Home’s Water Quality with the Westinghouse
                 Dynamic Series Water Refiner from Clean Water Pro’s <br />
                 Elevate your home’s water quality to new heights with the
                 Westinghouse Dynamic Series Water Refiner. This state-of-the-art
@@ -44,18 +44,33 @@ const WaterSoftener = () => {
             <h2 className="service-details__bottom-title">
               Water Softener
             </h2>
-            <div className="service-details__bottom-text1">
+            <p>
+                With the Westinghouse Dynamic Series at the heart of your home’s
+                water system, prepare to witness a remarkable transformation.
+                Bid farewell to the frustrations of hard water as clothes.
+              </p>
+            {/* <div className="service-details__bottom-text1">
               <p>
                 Transform Your Home’s Water Quality with the Westinghouse
                 Dynamic Series Water Refiner from Clean Water Pro’s <br />
                 Elevate your home’s water quality to new heights with the
-                Westinghouse Dynamic Series Water Refiner. 
+                Westinghouse Dynamic Series Water Refiner. This state-of-the-art
+                whole house refining system promises nothing short of
+                consistently superior water for you and your family. Crafted
+                with precision and designed to operate seamlessly around the
+                clock, this sophisticated system ensures that every tap in your
+                home delivers nothing but the most refined, clean, and soft
+                water imaginable.
               </p>
-            </div>
+            </div> */}
 
             {/* How it Works Section */}
-            <div className="service-details">
-              <h3>Water Softener Works</h3>
+            <div className="service-details__bottom-text3 ">
+              <div className="row">
+               
+                <div className="col-xl-8 col-lg-7">
+                  <div className="content-box">
+                    <h3> WaterSoftener </h3>
               <p>
                 Before water can enter your home, it must first pass through
                 your Westinghouse water treatment system.
@@ -76,52 +91,29 @@ const WaterSoftener = () => {
                   into the home.
                 </li>
               </ul>
-              <div
-                className="how-it-works-images"
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  width: "100%",
-                }}
-              >
-                <Image
-                  width={500}
-                  height={650}
-                  src="/assets/images/resources/service-details-img3.webp"
-                  alt="How it Works Process 1"
-                />
-              </div>
-              <p style={{ marginTop: "20px", textAlign: "left" }}>
-                Transform Your Home’s Water Quality with the Westinghouse
-                Dynamic Series Water Refiner from Clean Water Pro’s <br />
-                Elevate your home’s water quality to new heights with the
-                Westinghouse Dynamic Series Water Refiner. This state-of-the-art
-                whole house refining system promises nothing short of
-                consistently superior water for you and your family. Crafted
-                with precision and designed to operate seamlessly around the
-                clock, this sophisticated system ensures that every tap in your
-                home delivers nothing but the most refined, clean, and soft
-                water imaginable.
-              </p>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  width: "100%",
-                }}
-              >
-                <Image
-                  width={500}
-                  height={350}
-                  src="/assets/images/resources/service-details-img3.webp"
-                  alt="How it Works Process 2"
-                  style={{
-                    marginBottom: "20px",
-                    marginTop: "20px",
-                  }}
-                />
+               
+                    {/* <h3>Pioneering Technology for Thorough Purification</h3>
+                    <p>
+                      At the core of the Dynamic Series lies a pioneering
+                      seven-step cleaning sequence. Highlighted by a
+                      revolutionary process where a low electric current is
+                      passed through two titanium plates, this system creates a
+                      powerful decontamination solution. This unique feature
+                      ensures that your water isn’t just softened but thoroughly
+                      purified, providing you with the highest possible quality
+                      with every drop.
+                    </p> */}
+                    
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-5">
+                  <div className="img-box">
+                    <img
+                      src="/assets/images/resources/service-details-img3.webp"
+                      alt="Three distinct water filtration systems"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -179,6 +171,41 @@ const WaterSoftener = () => {
             </div>
             
           </div>
+            <div className="service-details__how-it-works">
+                        
+                         </div>
+                         <p style={{ marginTop: "20px", textAlign: "left" }}>
+                           Transform Your Home’s Water Quality with the Westinghouse
+                           Dynamic Series Water Refiner from Clean Water Pro’s <br />
+                           Elevate your home’s water quality to new heights with the
+                           Westinghouse Dynamic Series Water Refiner. This state-of-the-art
+                           whole house refining system promises nothing short of
+                           consistently superior water for you and your family. Crafted
+                           with precision and designed to operate seamlessly around the
+                           clock, this sophisticated system ensures that every tap in your
+                           home delivers nothing but the most refined, clean, and soft
+                           water imaginable.
+                         </p>
+                         <div
+                           style={{
+                             display: "flex",
+                             justifyContent: "center",
+                             alignItems: "center",
+                             width: "100%",
+                           }}
+                         >
+                           <Image
+                             width={500}
+                             height={350}
+                             src="/assets/images/resources/service-details-img3.webp"
+                             alt="How it Works Process 2"
+                             style={{
+                               marginBottom: "20px",
+                               marginTop: "20px",
+                             }}
+                           />
+                         </div>
+                       
            
         </div>
         
@@ -223,7 +250,7 @@ const WaterSoftener = () => {
               </div>
      
       <div className="row" style={{ display: 'flex' , flexWrap: 'wrap' , marginTop: '45px' }}>
-            {ServiceFilration.map((item, i) => (
+            {ServiceSoftener.map((item, i) => (
               <div
                 className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft"
                 data-wow-delay={item.delay}
@@ -262,7 +289,7 @@ const WaterSoftener = () => {
               <h3>Product Reviews</h3>
               </div>
 <div className="roww" style={{ display: 'flex', flexWrap: 'nowrap',  overflowX: 'auto', marginTop:'5px' }}>
-  {ProductsFiltration.map((item, i) => (
+  {ProductsSoftener.map((item, i) => (
     <div
       className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft"
       data-wow-delay={item.delay}
@@ -310,5 +337,6 @@ const WaterSoftener = () => {
     </>
   );
 };
+
 
 export default WaterSoftener;

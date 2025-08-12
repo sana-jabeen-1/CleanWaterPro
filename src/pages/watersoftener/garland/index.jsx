@@ -25,7 +25,7 @@ const Garland = () => {
       <SEO pageTitle={"Garland"} canonical="https://www.cleanwaterprosllc.com/locations/garland" />
       <HeaderOne />
       <Breadcrumb
-        heading="Garland"
+        heading="Water Softener Service Garland Tx"
         currentPage="Garland"
         banner="/assets/images/states/garland.webp"
         mobileBanner="/assets/images/states/garland.webp"

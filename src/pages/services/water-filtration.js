@@ -5,6 +5,7 @@ import HeaderOne from "../../common/header/HeaderOne";
 import SEO from "../../common/seo/Seo";
 import WaterFiltration from "@/components/service/WaterFiltration";
 
+
 export default function WaterFiltrationPage() {
   return (
     <>
@@ -16,7 +17,8 @@ export default function WaterFiltrationPage() {
         banner="/assets/images/backgrounds/banner.webp"
         mobileBanner="/assets/images/backgrounds/banner-2-mobile.webp"
       />
-
+      
+         
       <WaterFiltration />
       <FooterOne />
     </>

@@ -46,18 +46,18 @@ export const ServiceFilration = [
   {
     id: 1,
     icon: <FaWater />,
-    heading: "Water Filtration",
+    heading: "Improved Quality",
     description:
-      "Experience pure, great-tasting water through advanced filtration .",
+      "Removes harmful contaminants.",
     delay: "00ms",
     duration: "1500ms",
   },
   {
     id: 2,
     icon: <MdOutlineWaterDrop />,
-    heading: "Water Softener",
+    heading: "Better Taste",
     description:
-      "Experience soft, mineral-free water through advanced softening ",
+      "Eliminates bad odors and flavors.",
     
     delay: "200ms",
     duration: "1500ms",
@@ -65,18 +65,102 @@ export const ServiceFilration = [
    {
     id: 3,
     icon: <MdWater />,
-    heading: "Water Purification",
+    heading: "Healthier Water",
     description:
-      "Experience clean, safe, great-tasting and purified water , .",
+      "Reduces exposure to toxins.",
     delay: "400ms",
     duration: "1500ms",
   },
    {
     id: 4,
     icon: <MdOutlineWaterDrop />,
-    heading: "Water Softener",
+    heading: "Cost-Effective",
     description:
-      "Experience soft, mineral-free water through advanced softening ",
+      "Cuts down on bottled water expenses.",
+     link: "/dynamic-products/iron-boss",
+    delay: "200ms",
+    duration: "1500ms",
+  },
+   
+];
+
+export const ServiceSoftener = [
+  {
+    id: 1,
+    icon: <FaWater />,
+    heading: "Prevents Damage",
+    description:
+      "Stops mineral buildup in pipes.",
+    delay: "00ms",
+    duration: "1500ms",
+  },
+  {
+    id: 2,
+    icon: <MdOutlineWaterDrop />,
+    heading: "Boosts Appliance Life",
+    description:
+      "Protects appliances from hard water.",
+    
+    delay: "200ms",
+    duration: "1500ms",
+  },
+   {
+    id: 3,
+    icon: <MdWater />,
+    heading: " Enhances Skin & Hair",
+    description:
+      "Reduces dryness from hard water. ",
+    delay: "400ms",
+    duration: "1500ms",
+  },
+   {
+    id: 4,
+    icon: <MdOutlineWaterDrop />,
+    heading: "Saves on Detergents",
+    description:
+      "Works better with soap and detergent.",
+     link: "/dynamic-products/iron-boss",
+    delay: "200ms",
+    duration: "1500ms",
+  },
+   
+];
+
+export const ServicePurification = [
+  {
+    id: 1,
+    icon: <FaWater />,
+    heading: "Removes Contaminants",
+    description:
+      "Filters out harmful substances.",
+    delay: "00ms",
+    duration: "1500ms",
+  },
+  {
+    id: 2,
+    icon: <MdOutlineWaterDrop />,
+    heading: "Improves Taste",
+    description:
+      "Makes water taste fresher. ",
+    
+    delay: "200ms",
+    duration: "1500ms",
+  },
+   {
+    id: 3,
+    icon: <MdWater />,
+    heading: "Promotes Health",
+    description:
+      "Reduces exposure to pollutants.  ",
+    delay: "400ms",
+    duration: "1500ms",
+  },
+   {
+    id: 4,
+    icon: <MdOutlineWaterDrop />,
+    heading: "Eco-Friendly",
+    description:
+      "Reduces plastic waste.",
      link: "/dynamic-products/iron-boss",
     delay: "200ms",
     duration: "1500ms",
@@ -85,11 +169,12 @@ export const ServiceFilration = [
 ];
 
 
+
 export const ProductsFiltration = [
   {
     id: 1,
-    productImage: "/assets/images/resources/service-details-img6.webp",
-    productTitle: "Product 1",
+    productImage: "/assets/images/resources/service-details-img1.webp",
+    productTitle: "Westinghouse Dynamic Series ",
     delay: "0.3s",
     duration: "1s",
     rating: 4, 
@@ -97,8 +182,8 @@ export const ProductsFiltration = [
   },
   {
     id: 2,
-    productImage: "/assets/images/resources/service-details-img7.webp",
-    productTitle: "Product 2",
+    productImage: "/assets/images/resources/service-details-img4.jpg",
+    productTitle: "Drinking Water D550",
     delay: "0.5s",
     duration: "1s",
     rating: 5, 
@@ -106,8 +191,8 @@ export const ProductsFiltration = [
   },
   {
     id: 3,
-    productImage: "/assets/images/resources/service-details-img1.webp",
-    productTitle: "Product 2",
+    productImage: "/assets/images/resources/service-details-img6.webp",
+    productTitle: "Disinfection Filtration",
     delay: "0.7s",
     duration: "1s",
     rating: 5, 
@@ -115,8 +200,8 @@ export const ProductsFiltration = [
   },
     {
     id: 4,
-    productImage: "/assets/images/products/R450.webp",
-    productTitle: "Product 2",
+    productImage: "/assets/images/resources/service-details-img4.jpg",
+    productTitle: "Drinking Water R450",
     delay: "0.10s",
     duration: "1s",
     rating: 5, 
@@ -124,8 +209,8 @@ export const ProductsFiltration = [
   },
   {
     id: 5,
-    productImage: "/assets/images/products/R450.webp",
-    productTitle: "Product 2",
+    productImage: "/assets/images/resources/service-details-img6.webp",
+    productTitle: "Qualitair ",
     delay: "0.13s",
     duration: "1s",
     rating: 5, 
@@ -133,6 +218,105 @@ export const ProductsFiltration = [
   },
   
 ];
+
+export const ProductsSoftener = [
+  {
+    id: 1,
+    productImage: "/assets/images/resources/service-details-img3.webp",
+    productTitle: "Iron Boss ",
+    delay: "0.3s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  {
+    id: 2,
+    productImage: "/assets/images/resources/service-details-img3.webp",
+    productTitle: "Iron Boss ",
+    delay: "0.5s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  {
+    id: 3,
+    productImage: "/assets/images/resources/service-details-img3.webp",
+    productTitle: "Iron Boss ",
+    delay: "0.7s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+    {
+    id: 4,
+    productImage: "/assets/images/resources/service-details-img3.webp",
+    productTitle: "Iron Boss ",
+    delay: "0.10s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  {
+    id: 5,
+    productImage: "/assets/images/resources/service-details-img3.webp",
+    productTitle: "Iron Boss ",
+    delay: "0.13s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  
+];
+
+export const ProductsPurification = [
+  {
+    id: 1,
+    productImage: "/assets/images/resources/service-details-img1.webp",
+    productTitle: "Westinghouse Dynamic Series",
+    delay: "0.3s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  {
+    id: 2,
+    productImage: "/assets/images/resources/service-details-img5.jpg",
+    productTitle: "Ultraviolet Lite Sterilization",
+    delay: "0.5s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  {
+    id: 3,
+    productImage: "/assets/images/resources/service-details-img6.webp",
+    productTitle: "Disinfection Filtration",
+    delay: "0.7s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+    {
+    id: 4,
+    productImage: "/assets/images/resources/service-details-img3.webp",
+    productTitle: "Iron Boss ",
+    delay: "0.10s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  {
+    id: 5,
+    productImage: "/assets/images/resources/service-details-img3.webp",
+    productTitle: "Iron Boss ",
+    delay: "0.13s",
+    duration: "1s",
+    rating: 5, 
+    reviewsCount: 350, 
+  },
+  
+];
+
 
 
 // export const ServiceOneData = [

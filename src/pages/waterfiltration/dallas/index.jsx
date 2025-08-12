@@ -29,13 +29,13 @@ const Dallas = () => {
       {" "}
       <SEO pageTitle={"Dallas"} canonical="https://www.cleanwaterprosllc.com/locations/dallas" />
       <HeaderOne />
+      
       <Breadcrumb
-        heading="Dallas"
+        heading="Water Filtration Services dallas tx"
         currentPage="Dallas"
         banner="/assets/images/states/dallas.webp"
         mobileBanner="/assets/images/states/dallas.webp"
-      />
-
+        />
        <WaterFiltration />
       <FooterOne />
     </div>

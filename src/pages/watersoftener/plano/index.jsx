@@ -25,7 +25,7 @@ const Plano = () => {
       <SEO pageTitle={"Plano"} canonical="https://www.cleanwaterprosllc.com/locations/plano" />
       <HeaderOne />
       <Breadcrumb
-        heading="Plano"
+        heading="Water Softener Service Plano Tx"
         currentPage="Plano"
         banner="/assets/images/states/plano.webp"
         mobileBanner="/assets/images/states/plano.webp"

@@ -124,7 +124,7 @@ const menu_data = [
     link: "/services",
      sub_menus: [
       {
-        link: "/services/water-filtration",
+        link: "/",
         title: "Water Filtration",
         layout: [
           {
@@ -145,7 +145,7 @@ const menu_data = [
 ],
       },
       {
-        link: "/services/water-softener",
+        link: "/",
         title: "water softener",
         layout: [
           {
@@ -166,7 +166,7 @@ const menu_data = [
 ],
       },
       {
-        link: "/services/water-purification",
+        link: "/",
         title: "water purification services",
         layout: [
           {

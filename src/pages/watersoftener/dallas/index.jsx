@@ -30,7 +30,7 @@ const Dallas = () => {
       <SEO pageTitle={"Dallas"} canonical="https://www.cleanwaterprosllc.com/locations/dallas" />
       <HeaderOne />
       <Breadcrumb
-        heading="Dallas"
+        heading="Water Softener Service Dallas Tx"
         currentPage="Dallas"
         banner="/assets/images/states/dallas.webp"
         mobileBanner="/assets/images/states/dallas.webp"

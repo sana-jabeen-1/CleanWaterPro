@@ -5,6 +5,7 @@ import SEO from "@/common/seo/Seo";
 import CountyCard from "@/components/locations/CountyCard";
 import Products from "@/components/locations/Products";
 import ServiceOne from "@/components/service/ServiceOne";
+import WaterFiltration from "@/components/service/WaterFiltration";
 
 const Plano = () => {
   const counties = [
@@ -29,11 +30,7 @@ const Plano = () => {
         banner="/assets/images/states/plano.webp"
         mobileBanner="/assets/images/states/plano.webp"
       />
-      <section>
-        <Products />
-        <ServiceOne />
-        <CountyCard countiesArray={counties} />
-      </section>
+      <WaterFiltration />
       <FooterOne />
     </div>
   );

@@ -6,6 +6,7 @@ import FeaturesOne from "@/components/features/FeaturesOne";
 import CountyCard from "@/components/locations/CountyCard";
 import Products from "@/components/locations/Products";
 import ServiceOne from "@/components/service/ServiceOne";
+import WaterSoftener from "@/components/service/WaterSoftener";
 
 const Dallas = () => {
   const counties = [
@@ -34,11 +35,7 @@ const Dallas = () => {
         banner="/assets/images/states/dallas.webp"
         mobileBanner="/assets/images/states/dallas.webp"
       />
-      <section>
-        <Products />
-        <ServiceOne />
-        <CountyCard countiesArray={counties} />
-      </section>
+        <WaterSoftener />
       <FooterOne />
     </div>
   );

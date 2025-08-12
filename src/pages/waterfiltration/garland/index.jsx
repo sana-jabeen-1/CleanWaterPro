@@ -5,6 +5,7 @@ import SEO from "@/common/seo/Seo";
 import CountyCard from "@/components/locations/CountyCard";
 import Products from "@/components/locations/Products";
 import ServiceOne from "@/components/service/ServiceOne";
+import WaterFiltration from "@/components/service/WaterFiltration";
 
 const Garland = () => {
   const counties = [
@@ -29,11 +30,7 @@ const Garland = () => {
         banner="/assets/images/states/garland.webp"
         mobileBanner="/assets/images/states/garland.webp"
       />
-      <section>
-        <Products />
-        <ServiceOne />
-        <CountyCard countiesArray={counties} />
-      </section>
+     <WaterFiltration />
       <FooterOne />
     </div>
   );

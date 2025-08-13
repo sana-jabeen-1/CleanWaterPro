@@ -6,6 +6,7 @@ import CountyCard from "@/components/locations/CountyCard";
 import Products from "@/components/locations/Products";
 import ServiceOne from "@/components/service/ServiceOne";
 import WaterFiltration from "@/components/service/WaterFiltration";
+import WaterFilrationFW from "@/components/service/WaterFiltrationFW";
 
 const FortWorth = () => {
   const counties = [
@@ -38,7 +39,7 @@ const FortWorth = () => {
         banner="/assets/images/states/fort-worth.webp"
         mobileBanner="/assets/images/states/fort-worth.webp"
       />
-      <WaterFiltration/>
+      <WaterFilrationFW/>
       <FooterOne />
     </div>
   );

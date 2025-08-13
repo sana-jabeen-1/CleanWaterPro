@@ -6,6 +6,7 @@ import CountyCard from "@/components/locations/CountyCard";
 import Products from "@/components/locations/Products";
 import ServiceOne from "@/components/service/ServiceOne";
 import WaterSoftener from "@/components/service/WaterSoftener";
+import WaterSoftenerGarland from "@/components/service/WaterSoftenerGarland";
 
 const Garland = () => {
   const counties = [
@@ -30,7 +31,7 @@ const Garland = () => {
         banner="/assets/images/states/garland.webp"
         mobileBanner="/assets/images/states/garland.webp"
       />
-       <WaterSoftener />
+       <WaterSoftenerGarland />
       <FooterOne />
     </div>
   );

@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { FaqOneData} from "@/data/faq";
+import { FaqIronBoss } from "@/data/faq";
 import { useEffect } from "react";
 
 const IronBoss = () => {
+
 useEffect(() => {
     if ($(".accrodion-grp").length) {
       var accrodionGrp = $(".accrodion-grp");
@@ -195,7 +196,7 @@ useEffect(() => {
                           className="accrodion-grp faq-one-accrodion"
                           data-grp-name="faq-one-accrodion-1"
                         >
-                          {FaqOneData.map((item, i) => (
+                          {FaqIronBoss.map((item, i) => (
                             <div
                               key={i}
                               className={`accrodion wow fadeInUp ${item.open}`}

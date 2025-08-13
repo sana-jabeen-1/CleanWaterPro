@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ProductsSoftener, ServiceSoftener } from "@/data/service";
+import { ProductsPurification, ServicePurification } from "@/data/service";
 import { ProductsFiltration } from "@/data/service";
-import { FaqSoftener } from "@/data/faq";
+import { FaqPurification } from "@/data/faq";
 import { useEffect } from "react";
 
-const WaterSoftener = () => {
+const WaterpurificationPlano = () => {
 
    useEffect(() => {
     if ($(".accrodion-grp").length) {
@@ -76,15 +76,12 @@ const WaterSoftener = () => {
 
           <div className="service-details__bottom">
             <h2 className="service-details__bottom-title">
-             Professional Water Softener Services in Dallas, TX
-
+              Water Purification Solutions for Your Home in Plano, TX | Clean Water Pro LLC
             </h2>
             <p>
-               At <strong>Clean Water Pro LLC</strong>, we specialize in providing high-quality<strong> water softener services in Dallas, TX</strong>. 
-               Our team of licensed professionals is dedicated to ensuring that your home or business has access to clean, 
-               soft water free from the harmful effects of hard water. Hard water can damage your plumbing, appliances, and even affect the health of your skin and hair. 
-               With over 20 years of experience, we offer a comprehensive range of water softener installation services Dallas TX, including custom water softening systems designed to meet your specific needs.
-
+                At Clean Water Pro LLC, we specialize in providing expert water purification services in Plano, TX, ensuring that you and your family have access to clean, safe, and healthy water. We offer customized water purification systems for home Plano,
+                 TX, designed to address various water quality issues such as chlorine, heavy metals,
+                 bacteria, sediments, and odors.
               </p>
             {/* <div className="service-details__bottom-text1">
               <p>
@@ -107,22 +104,12 @@ const WaterSoftener = () => {
                
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3> Water Softener Installation Service in Dallas, TX</h3>
+                    <h3> </h3>
               <p>
-                  Water Softener Installation Service in Dallas, TX is the first step toward protecting your home from the negative effects of hard water. 
-                  We help you select the right water softener system that suits your home's water needs, ensuring a smooth installation process. Whether you need a water softener company near me or a specialized water softener technician near me, Clean Water Pro LLC is ready to serve your needs with professionalism and efficiency.
+                Plano homes often experience issues with tap water quality, ranging from chemical contamination to sediment buildup. Our team at Clean Water Pro LLC offers comprehensive solutions to address these concerns. Whether you're using municipal water or relying on well water, we have a variety of systems tailored to meet your needs. From point-of-use filters to whole house water purification systems Plano, TX, our solutions provide purified water for drinking,
+                 cooking, bathing, and every other use in your home.<br />
+                 With Clean Water Pro LLC, you can trust that your water is free from harmful impurities. Our water purification systems Plano, TX are designed to target a wide range of contaminants, providing the best possible water quality for you and your family.
               </p>
-               <p>
-                 When you choose Clean Water Pro LLC, you're opting for a hassle-free water softener installation experience, 
-                 where we manage every aspect of the process from start to finish. Our technicians are trained to handle both residential and commercial water softener repair Dallas TX needs.
-                  So, whether you're dealing with a small problem at home or need an industrial-strength solution, we’ve got you covered.
-              </p>
-              <p>
-                We provide water softener maintenance near me services to keep your system running efficiently over the years. Regular maintenance can help prevent issues and ensure your water softener continues to perform at its best. 
-                We recommend periodic inspections, salt replenishment, and cleaning to avoid any costly repairs down the line. 
-                Our water softener service Dallas TX is designed to offer peace of mind by keeping your system running smoothly, offering both repair and servicing when required.
-              </p><br />
-
               {/* <ul>
                 <li>
                   <strong>Unconditioned Water:</strong> enters the mineral tank,
@@ -138,8 +125,8 @@ const WaterSoftener = () => {
                   the contaminants that were removed from the water on its way
                   into the home.
                 </li>
-              </ul> */}
-               
+              </ul>
+                */}
                     {/* <h3>Pioneering Technology for Thorough Purification</h3>
                     <p>
                       At the core of the Dynamic Series lies a pioneering
@@ -157,7 +144,7 @@ const WaterSoftener = () => {
                 <div className="col-xl-4 col-lg-5">
                   <div className="img-box">
                     <img
-                      src="/assets/images/resources/service-details-img3.webp"
+                      src="/assets/images/resources/service-details-img1.webp"
                       alt="Three distinct water filtration systems"
                     />
                   </div>
@@ -166,12 +153,10 @@ const WaterSoftener = () => {
             </div>
 
             <div className="service-details__bottom-text2">
-              <h3>Comprehensive Water Softener Repair and Maintenance</h3>
+              <h3>Tailored Water Filtration Systems for All Your Needs</h3>
               <p>
-                A water softener is a significant investment in the well-being of your home, and like any appliance, it requires regular water softener servicing and occasional repairs.
-                 At Clean Water Pro LLC, we provide a full range of water softener repair and maintenance services in Dallas, TX, to ensure that your system remains in optimal condition. 
-                 Whether you’re experiencing issues with water pressure, mineral buildup, or strange noises, our expert team is just a call away.
-
+                At Clean Water Pro LLC, we understand that every home has unique water quality needs. That’s why we offer a variety of water purification systems Plano, TX, each designed to address specific concerns. Whether you need a whole house filtration system or targeted purification 
+                for specific sources, we’ve got you covered.
               </p>
             </div>
             <div className="service-details__bottom-text3 ">
@@ -179,31 +164,27 @@ const WaterSoftener = () => {
                 <div className="col-xl-4 col-lg-5">
                   <div className="img-box">
                     <img
-                      src="/assets/images/resources/service-details-img3.webp"
+                      src="/assets/images/resources/service-details-img5.jpg"
                       alt="Three distinct water filtration systems"
                     />
                   </div>
                 </div>
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3>water softener servicing near me</h3>
+                    <h3>Whole House Water Purification System Plano, TX</h3>
                     <p>
-                     Our water softener servicing near me includes a complete system check-up where we assess the internal components of your water softener and make necessary adjustments. From<strong> salt replenishment </strong>to checking for leaks or clogs, we ensure that your system continues to work efficiently. If you're in need of a water softener repairman near me, 
-                     Clean Water Pro LLC is available to troubleshoot and fix any issues that may arise with your water softener system.
+                      Our whole house water purification systems Plano, TX filter all the water entering your home, ensuring that every faucet provides purified water. These systems are ideal for families looking for an all-encompassing solution to remove contaminants like chlorine, heavy metals, sediments, and organic chemicals. With our full house water purification systems Plano,
+                       TX, you can enjoy clean water throughout your home without the hassle of installing multiple point-of-use filters.
                     </p>
-                     <p>
-                      Having a<strong> water softener system service near me</strong> can save you from unexpected breakdowns. Over time, 
-                     water softeners can experience issues such as mineral buildup, which can reduce their efficiency.
-                      Our technicians specialize in<strong> water softener repair Dallas TX</strong>, providing solutions to all types of water softener problems. 
-                      Whether you're dealing with a faulty valve, resin bed issues, or clogged pipes, we have the expertise to restore your system to perfect working order.
-                    </p>
+                    <br/>
+                    <h3>Water Purification Systems for Well Water Plano, TX</h3>
                     <p>
-                      In addition to repairs, we also offer<strong> water softener system maintenance near me</strong> to help prolong the life of your system. 
-                      Regular maintenance ensures that your water softener continues to operate at peak performance, reducing the chances of future repairs and lowering your long-term costs.
-                       We work with all types of water softener systems, including<strong> commercial water softener repair Dallas TX</strong>, so no matter the size or scope of the issue, Clean Water Pro LLC is here to help.
+                      For homes using well water, we offer specialized water purification systems for well water Plano, TX.
+                       Well water can contain higher levels of iron, sulfur, bacteria, and other impurities. Our customized systems are designed to tackle these specific contaminants,
+                        ensuring your well water is free from unpleasant odors, staining, and potential health risks.
 
-                    </p><br />
-                    
+                    </p>
+
                     {/* <h3>Pioneering Technology for Thorough Purification</h3>
                     <p>
                       At the core of the Dynamic Series lies a pioneering
@@ -225,23 +206,30 @@ const WaterSoftener = () => {
             <div className="service-details__how-it-works">
                         
                          </div>
-                         <h3>Why Choose Clean Water Pro LLC for Water Softener Services in Dallas, TX</h3>
+                          <h3>Why Choose Clean Water Pro LLC?</h3>
                          <p style={{ marginTop: "20px", textAlign: "left" }}>
-                           When it comes to <strong>water softener companies in my area</strong>, Clean Water Pro LLC stands out as a trusted provider of water softening solutions in Dallas, TX, and surrounding areas. We pride ourselves on our reputation for quality service, customer satisfaction, and reliable results. Whether you're searching for<strong> 
-                            water softener companies near me </strong>or need a specialized <strong>water softener service company Dallas TX</strong>, 
-                           we are the go-to choice for homeowners and businesses alike.ut the most refined, clean, and soft
-                           water imaginable.
+                           Clean Water Pro LLC is the trusted water purification service provider Plano, TX, with years of experience in delivering high-quality filtration systems that cater to the diverse needs of our clients.
+                            Here’s why we stand out:
                          </p>
-                         <p>
-                           At Clean Water Pro LLC, our <strong>water softener service Dallas TX </strong>goes beyond installation and repairs. 
-                           We offer ongoing support with regular maintenance packages that ensure your water softener operates efficiently and effectively. By working with us, you’ll never have to worry about<strong> water softener system maintenance</strong> again. Our team is always available to provide expert advice, diagnose issues, 
-                           and recommend the best solutions for your water quality needs.
-                         </p><br />
-                         <p>
-                           We understand the unique water issues faced by residents in Dallas, TX, and we offer tailored solutions that will address your specific needs. 
-                           As your local<strong> water softener company near me</strong>, we focus on providing a personalized, friendly experience. Our technicians will not only install or repair your system but also educate you on how to maintain it for optimal performance.
+                           <ul>
+                <li>
+                  <strong>Expert Knowledge and Experience:</strong> Our team is highly skilled and experienced in designing, installing, and maintaining water purification systems Plano, TX. We understand the unique water quality challenges faced by homeowners in Plano, whether from municipal or well water sources.
 
-                         </p><br />
+                </li>
+                <li>
+                  <strong>Customized Solutions:</strong>  We don’t offer one-size-fits-all systems. Whether you need a whole house water purification system Plano, TX, or a more specific water purification system for well water Plano, TX, we work with you to determine the best solution tailored to your needs.
+
+                </li>
+                <li>
+                  <strong>Quality and Reliability:</strong>  At Clean Water Pro LLC, we use only the highest quality filtration systems that are designed to last. Our water purification systems Plano, TX are built to provide reliable, long-term performance, giving you peace of mind knowing your water is always clean.
+
+                </li>
+                <li>
+                  <strong>Easy Maintenance and Support:</strong>  Our filtration systems are designed for simple maintenance, and our team is always available to provide ongoing support to ensure your system operates efficiently.
+
+                </li>
+              </ul>
+               
                          <div
                            style={{
                              display: "flex",
@@ -253,21 +241,19 @@ const WaterSoftener = () => {
                            <Image
                              width={500}
                              height={350}
-                             src="/assets/images/resources/service-details-img3.webp"
+                             src="/assets/images/resources/service-details-img6.webp"
                              alt="How it Works Process 2"
                              style={{
                                marginBottom: "20px",
                                marginTop: "20px",
                              }}
                            />
-                        
                          </div>
                          <p>
-                           Whether you are looking for<strong> water softener servicing Dallas TX</strong> or need urgent repairs, we’re the local experts who you can rely on for fast, efficient, 
-                           and affordable solutions. We work with a variety of water softener systems and offer advice on which system is best suited for your home.
-                            If you're searching for a water softener company Dallas TX, Clean Water Pro LLC is here to provide you with the highest level of service and expertise.
-                         </p><br />
-                      
+                      Trust Clean Water Pro LLC to deliver effective, long-lasting solutions for all your water purification needs in Plano, TX.
+                       Contact us today to get started and improve the quality of your water!
+                    </p>
+                        
         </div>
         
         <style jsx>
@@ -307,11 +293,11 @@ const WaterSoftener = () => {
         </style>
       </section>
       <div className="service-details__how-it-works" style={{ textAlign: 'center', padding: '35px'}}>
-              <h3>Benefits of the Water Softener</h3>
+              <h3>Benefits of the Water Purification</h3>
               </div>
      
       <div className="row" style={{ display: 'flex' , flexWrap: 'wrap' , marginTop: '45px' }}>
-            {ServiceSoftener.map((item, i) => (
+            {ServicePurification.map((item, i) => (
               <div
                 className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft"
                 data-wow-delay={item.delay}
@@ -350,13 +336,13 @@ const WaterSoftener = () => {
               <h3>Product Reviews</h3>
               </div>
 <div className="roww" style={{ display: 'flex', flexWrap: 'nowrap',  overflowX: 'auto', marginTop:'5px' }}>
-  {ProductsSoftener.map((item, i) => (
+  {ProductsPurification.map((item, i) => (
     <div
       className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft"
       data-wow-delay={item.delay}
       data-wow-duration={item.duration}
       key={i}
-      style={{ flex: '1 1 25%', marginRight: '10px' }} 
+      style={{ flex: '1 1 75%', marginRight: '10px' }} 
     >
       <div className="services-one__singlee">
         <div className="services-one__single-img">
@@ -396,7 +382,7 @@ const WaterSoftener = () => {
   ))}
 </div>
 
-<section className="faq-one pd-120-0-120">
+ <section className="faq-one pd-120-0-120">
         <div className="container">
           <div className="section-title__style2">
             <div className="section-title">
@@ -422,7 +408,7 @@ const WaterSoftener = () => {
                     className="accrodion-grp faq-one-accrodion"
                     data-grp-name="faq-one-accrodion-1"
                   >
-                    {FaqSoftener.map((item, i) => (
+                    {FaqPurification.map((item, i) => (
                       <div
                         key={i}
                         className={`accrodion wow fadeInUp ${item.open}`}
@@ -462,10 +448,9 @@ const WaterSoftener = () => {
             {/* End Faq One Img */}
           
       </section>
-
     </>
   );
 };
 
 
-export default WaterSoftener;
+export default WaterpurificationPlano;

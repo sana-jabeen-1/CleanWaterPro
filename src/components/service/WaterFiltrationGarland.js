@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ProductsSoftener, ServiceSoftener } from "@/data/service";
+import { ServiceFilration } from "@/data/service";
 import { ProductsFiltration } from "@/data/service";
-import { FaqSoftener } from "@/data/faq";
+import { FaqFiltration } from "@/data/faq";
 import { useEffect } from "react";
 
-const WaterSoftener = () => {
+const WaterFiltrationGarland = () => {
 
-   useEffect(() => {
+ useEffect(() => {
     if ($(".accrodion-grp").length) {
       var accrodionGrp = $(".accrodion-grp");
       accrodionGrp.each(function () {
@@ -76,15 +76,12 @@ const WaterSoftener = () => {
 
           <div className="service-details__bottom">
             <h2 className="service-details__bottom-title">
-             Professional Water Softener Services in Dallas, TX
+             Reliable Water Filtration Solutions by Clean Water Pro LLC in Garland, TX
 
             </h2>
             <p>
-               At <strong>Clean Water Pro LLC</strong>, we specialize in providing high-quality<strong> water softener services in Dallas, TX</strong>. 
-               Our team of licensed professionals is dedicated to ensuring that your home or business has access to clean, 
-               soft water free from the harmful effects of hard water. Hard water can damage your plumbing, appliances, and even affect the health of your skin and hair. 
-               With over 20 years of experience, we offer a comprehensive range of water softener installation services Dallas TX, including custom water softening systems designed to meet your specific needs.
-
+                If you're searching for water filtration services in Garland, TX, Clean Water Pro LLC offers reliable solutions that ensure your home or business enjoys clean, purified water. 
+              .
               </p>
             {/* <div className="service-details__bottom-text1">
               <p>
@@ -107,22 +104,14 @@ const WaterSoftener = () => {
                
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3> Water Softener Installation Service in Dallas, TX</h3>
+                    <h3> </h3>
               <p>
-                  Water Softener Installation Service in Dallas, TX is the first step toward protecting your home from the negative effects of hard water. 
-                  We help you select the right water softener system that suits your home's water needs, ensuring a smooth installation process. Whether you need a water softener company near me or a specialized water softener technician near me, Clean Water Pro LLC is ready to serve your needs with professionalism and efficiency.
+                Our services include water purification services in Garland, TX, designed to remove harmful contaminants, improving both the taste and safety of your water. Whether you're in need of home water filtration service in Garland, TX or commercial water filtration service companies near me 
+                we’ve got you covered with top-notch systems tailored to your needs
+                We are a trusted water filtration service company in Garland, TX, offering a variety of customizable options for your home or business. Our water treatment services in Garland, TX include whole home water filtration services in Garland, TX, ensuring that every tap in your home provides safe and clean water.
+                 Whether you're searching for water filtration system maintenance services in Garland, TX or need a new water filtration system company,
+                 our experts at Clean Water Pro LLC will help you find the right solution.
               </p>
-               <p>
-                 When you choose Clean Water Pro LLC, you're opting for a hassle-free water softener installation experience, 
-                 where we manage every aspect of the process from start to finish. Our technicians are trained to handle both residential and commercial water softener repair Dallas TX needs.
-                  So, whether you're dealing with a small problem at home or need an industrial-strength solution, we’ve got you covered.
-              </p>
-              <p>
-                We provide water softener maintenance near me services to keep your system running efficiently over the years. Regular maintenance can help prevent issues and ensure your water softener continues to perform at its best. 
-                We recommend periodic inspections, salt replenishment, and cleaning to avoid any costly repairs down the line. 
-                Our water softener service Dallas TX is designed to offer peace of mind by keeping your system running smoothly, offering both repair and servicing when required.
-              </p><br />
-
               {/* <ul>
                 <li>
                   <strong>Unconditioned Water:</strong> enters the mineral tank,
@@ -157,7 +146,7 @@ const WaterSoftener = () => {
                 <div className="col-xl-4 col-lg-5">
                   <div className="img-box">
                     <img
-                      src="/assets/images/resources/service-details-img3.webp"
+                      src="/assets/images/resources/service-details-img1.webp"
                       alt="Three distinct water filtration systems"
                     />
                   </div>
@@ -166,11 +155,9 @@ const WaterSoftener = () => {
             </div>
 
             <div className="service-details__bottom-text2">
-              <h3>Comprehensive Water Softener Repair and Maintenance</h3>
+              <h3>Comprehensive Water Filtration and Purification for Homes and Businesses</h3>
               <p>
-                A water softener is a significant investment in the well-being of your home, and like any appliance, it requires regular water softener servicing and occasional repairs.
-                 At Clean Water Pro LLC, we provide a full range of water softener repair and maintenance services in Dallas, TX, to ensure that your system remains in optimal condition. 
-                 Whether you’re experiencing issues with water pressure, mineral buildup, or strange noises, our expert team is just a call away.
+                When it comes to your home’s water, having a home water filtration system near me is essential for maintaining good health. Our home water filtration services in Garland, TX, at Clean Water Pro LLC, include everything from installation to regular water filtration system maintenance services. We provide advanced filtration systems that remove a wide range of contaminants including chlorine, sediment, and lead, offering you cleaner water for drinking, cooking, and bathing.
 
               </p>
             </div>
@@ -179,31 +166,21 @@ const WaterSoftener = () => {
                 <div className="col-xl-4 col-lg-5">
                   <div className="img-box">
                     <img
-                      src="/assets/images/resources/service-details-img3.webp"
+                      src="/assets/images/resources/service-details-img4.jpg"
                       alt="Three distinct water filtration systems"
                     />
                   </div>
                 </div>
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3>water softener servicing near me</h3>
+                    <h3></h3>
                     <p>
-                     Our water softener servicing near me includes a complete system check-up where we assess the internal components of your water softener and make necessary adjustments. From<strong> salt replenishment </strong>to checking for leaks or clogs, we ensure that your system continues to work efficiently. If you're in need of a water softener repairman near me, 
-                     Clean Water Pro LLC is available to troubleshoot and fix any issues that may arise with your water softener system.
-                    </p>
-                     <p>
-                      Having a<strong> water softener system service near me</strong> can save you from unexpected breakdowns. Over time, 
-                     water softeners can experience issues such as mineral buildup, which can reduce their efficiency.
-                      Our technicians specialize in<strong> water softener repair Dallas TX</strong>, providing solutions to all types of water softener problems. 
-                      Whether you're dealing with a faulty valve, resin bed issues, or clogged pipes, we have the expertise to restore your system to perfect working order.
-                    </p>
-                    <p>
-                      In addition to repairs, we also offer<strong> water softener system maintenance near me</strong> to help prolong the life of your system. 
-                      Regular maintenance ensures that your water softener continues to operate at peak performance, reducing the chances of future repairs and lowering your long-term costs.
-                       We work with all types of water softener systems, including<strong> commercial water softener repair Dallas TX</strong>, so no matter the size or scope of the issue, Clean Water Pro LLC is here to help.
+                      Our water purification services in Garland, TX are designed to tackle common issues in city or well water, removing impurities like chlorine, chloramines, bacteria, and more. Clean Water Pro LLC offers tailored solutions that suit the needs of different homes and businesses, ensuring you get the purest water possible. If you're looking for water filtration services near me,
+                       we provide high-quality systems designed to fit your lifestyle.<br/>
+                       For businesses in need of clean water, our commercial water filtration service companies near me specialize in providing reliable, large-scale filtration systems. Whether you run a restaurant, hotel, or other commercial establishment, Clean Water Pro LLC offers water treatment services in Garland, TX, to ensure your customers and staff have access to clean, safe water. Our commercial systems are designed for efficiency and long-lasting performance, helping you save on maintenance and water costs in the long run.
 
-                    </p><br />
-                    
+                    </p>
+
                     {/* <h3>Pioneering Technology for Thorough Purification</h3>
                     <p>
                       At the core of the Dynamic Series lies a pioneering
@@ -225,23 +202,20 @@ const WaterSoftener = () => {
             <div className="service-details__how-it-works">
                         
                          </div>
-                         <h3>Why Choose Clean Water Pro LLC for Water Softener Services in Dallas, TX</h3>
+                         <h3>Efficient Maintenance and Reliable Filtration Systems for Homes and Businesses</h3>
                          <p style={{ marginTop: "20px", textAlign: "left" }}>
-                           When it comes to <strong>water softener companies in my area</strong>, Clean Water Pro LLC stands out as a trusted provider of water softening solutions in Dallas, TX, and surrounding areas. We pride ourselves on our reputation for quality service, customer satisfaction, and reliable results. Whether you're searching for<strong> 
-                            water softener companies near me </strong>or need a specialized <strong>water softener service company Dallas TX</strong>, 
-                           we are the go-to choice for homeowners and businesses alike.ut the most refined, clean, and soft
-                           water imaginable.
-                         </p>
-                         <p>
-                           At Clean Water Pro LLC, our <strong>water softener service Dallas TX </strong>goes beyond installation and repairs. 
-                           We offer ongoing support with regular maintenance packages that ensure your water softener operates efficiently and effectively. By working with us, you’ll never have to worry about<strong> water softener system maintenance</strong> again. Our team is always available to provide expert advice, diagnose issues, 
-                           and recommend the best solutions for your water quality needs.
-                         </p><br />
-                         <p>
-                           We understand the unique water issues faced by residents in Dallas, TX, and we offer tailored solutions that will address your specific needs. 
-                           As your local<strong> water softener company near me</strong>, we focus on providing a personalized, friendly experience. Our technicians will not only install or repair your system but also educate you on how to maintain it for optimal performance.
+                           Are you in need of a water filtration system company near me? Clean Water Pro LLC offers a variety of systems, 
+                           including whole home water filtration services in Garland, TX, that address the needs of every home. Whether you have city water or a private well,
+                            we have the right filtration technology to give you the clean water you deserve.<br/>
+                            For a water filtration system to perform at its best, regular maintenance is key. Clean Water Pro LLC offers water filtration system maintenance services in Garland,
+                             TX, to ensure your system is running smoothly, catching any issues early on to prevent costly repairs. From routine filter changes to system inspections, 
+                             our experts will keep your system in top shape, providing you with fresh, clean water all year long.<br />
+                             Looking for trusted water filtration service companies in Garland, TX? Clean Water Pro LLC is a leading provider of filtration systems that remove harmful chemicals and impurities from your water supply. 
+                             Our systems are built to last, offering long-term protection for your home and health. Whether you need a whole-house system or a point-of-use filter, we have options that fit your needs.
 
-                         </p><br />
+
+
+                         </p>
                          <div
                            style={{
                              display: "flex",
@@ -253,21 +227,16 @@ const WaterSoftener = () => {
                            <Image
                              width={500}
                              height={350}
-                             src="/assets/images/resources/service-details-img3.webp"
+                             src="/assets/images/resources/service-details-img7.webp"
                              alt="How it Works Process 2"
                              style={{
                                marginBottom: "20px",
                                marginTop: "20px",
                              }}
                            />
-                        
                          </div>
-                         <p>
-                           Whether you are looking for<strong> water softener servicing Dallas TX</strong> or need urgent repairs, we’re the local experts who you can rely on for fast, efficient, 
-                           and affordable solutions. We work with a variety of water softener systems and offer advice on which system is best suited for your home.
-                            If you're searching for a water softener company Dallas TX, Clean Water Pro LLC is here to provide you with the highest level of service and expertise.
-                         </p><br />
-                      
+                       
+           
         </div>
         
         <style jsx>
@@ -307,11 +276,11 @@ const WaterSoftener = () => {
         </style>
       </section>
       <div className="service-details__how-it-works" style={{ textAlign: 'center', padding: '35px'}}>
-              <h3>Benefits of the Water Softener</h3>
+              <h3>Benefits of the Water Filtration</h3>
               </div>
      
       <div className="row" style={{ display: 'flex' , flexWrap: 'wrap' , marginTop: '45px' }}>
-            {ServiceSoftener.map((item, i) => (
+            {ServiceFilration.map((item, i) => (
               <div
                 className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft"
                 data-wow-delay={item.delay}
@@ -350,7 +319,7 @@ const WaterSoftener = () => {
               <h3>Product Reviews</h3>
               </div>
 <div className="roww" style={{ display: 'flex', flexWrap: 'nowrap',  overflowX: 'auto', marginTop:'5px' }}>
-  {ProductsSoftener.map((item, i) => (
+  {ProductsFiltration.map((item, i) => (
     <div
       className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft"
       data-wow-delay={item.delay}
@@ -395,8 +364,7 @@ const WaterSoftener = () => {
     </div>
   ))}
 </div>
-
-<section className="faq-one pd-120-0-120">
+ <section className="faq-one pd-120-0-120">
         <div className="container">
           <div className="section-title__style2">
             <div className="section-title">
@@ -422,7 +390,7 @@ const WaterSoftener = () => {
                     className="accrodion-grp faq-one-accrodion"
                     data-grp-name="faq-one-accrodion-1"
                   >
-                    {FaqSoftener.map((item, i) => (
+                    {FaqFiltration.map((item, i) => (
                       <div
                         key={i}
                         className={`accrodion wow fadeInUp ${item.open}`}
@@ -467,5 +435,4 @@ const WaterSoftener = () => {
   );
 };
 
-
-export default WaterSoftener;
+export default WaterFiltrationGarland;

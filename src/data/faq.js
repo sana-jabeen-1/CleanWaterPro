@@ -95,3 +95,603 @@ export const FaqOneData = [
     duration: "1000ms",
   },
 ];
+
+export const FaqFiltration = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is water filtration?",
+    description:
+      "The process of removing impurities and contaminants from water to improve quality.",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      "Water passes through filters that capture particles, chemicals, and other pollutants.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it safe?",
+    description:
+      "Yes, it ensures safe drinking water by removing harmful substances.",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What maintenance is required?",
+    description:
+      "Change filters regularly as per the system’s guidelines.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How effective is it?",
+    description:
+      "Very effective, removing most common water contaminants and improving taste.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  
+];
+
+
+export const FaqSoftener = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is a water softener?",
+    description:
+      "A system that removes minerals like calcium and magnesium from hard water to prevent scale buildup.",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      " It uses resin beads to exchange hard minerals with sodium, softening the water.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it safe?",
+    description:
+      "Yes, it’s safe and improves water quality for household use.",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What maintenance is required?",
+    description:
+      "Regularly refill the salt tank and clean the system as needed.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How effective is it?",
+    description:
+      "Highly effective at preventing limescale buildup and improving appliance lifespan.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  
+];
+
+export const FaqPurification = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is water purification?",
+    description:
+      " The process of removing contaminants from water to make it safe for drinking and use. ",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      "It uses methods like filtration, UV light, and reverse osmosis to remove bacteria, chemicals, and impurities.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it safe?",
+    description:
+      "Yes, purified water is free from harmful substances, making it safe for consumption. ",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What maintenance is required?",
+    description:
+      "Regularly change filters and clean the purification system as recommended.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How effective is it?",
+    description:
+      "Highly effective, removing up to 99.9% of contaminants and pathogens.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  
+];
+
+export const FaqWestingHouse = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is the Westinghouse Dynamic Series? ",
+    description:
+      "It’s a whole-house water treatment system that softens and filters water for better quality, taste, and appliance protection. ",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      " It removes contaminants and softens water, distributing clean water throughout your home, with a self-cleaning backwash system.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What makes it unique?",
+    description:
+      "It features a seven-step cleaning process and titanium plates for decontamination, preventing bacteria growth. ",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: " How often does it regenerate?",
+    description:
+      "It regenerates automatically with an EcoFlow process, optimized for efficiency, and includes a Calendar Override feature.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is there a backup power feature? ",
+    description:
+      "Yes, it has a capacitor for backup power, eliminating the need for battery replacements.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  {
+    id: 6,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How can I get a water quality analysis? ",
+    description:
+      "Request a free water analysis through authorized Westinghouse dealers.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  {
+    id: 7,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What maintenance does it require? ",
+    description:
+      "Regular maintenance includes cleaning the salt tank and annual checks by a certified technician.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  {
+    id: 8,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: " How do I contact support?",
+    description:
+      "Visit the Westinghouse website to fill out the contact form for assistance.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+
+];
+
+export const FaqIronBoss = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is the Iron Boss? ",
+    description:
+      " It’s a filtration system that removes iron, manganese, and hydrogen sulfide from water, eliminating stains and odors.",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      "It uses Oxy-Boost Technology and Diamonite media to naturally oxidize and filter out contaminants.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: " Is it chemical-free? ",
+    description:
+      "Yes, it’s chemical-free and eco-friendly, requiring no salt or chlorine.  ",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Does it require maintenance?",
+    description:
+      " It’s self-cleaning, requiring minimal maintenance with automatic rinsing and re-oxygenation. ",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  
+];
+
+export const FaqQualitair = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is Qualitair?",
+    description:
+      "A whole-home air purifier using UV light and ozone to eliminate airborne contaminants and odors. ",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      " It generates ozone in your HVAC system to oxidize and filter out pollutants.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it safe to use?",
+    description:
+      "Yes, ozone is consumed within the ductwork, leaving no harmful residue in your home. ",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What maintenance is required?",
+    description:
+      "Replace UV and ozone bulbs every two years.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How energy-efficient is it? ",
+    description:
+      "It uses low voltage power, consuming less energy than a 60-watt light bulb.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  {
+    id: 6,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: " Does it work with existing systems?",
+    description:
+      "Yes, it enhances your current air filters and humidifiers.",
+    delay: "500ms",
+    duration: "1000ms",
+  },
+];
+
+export const FaqUltraviolet = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: " What is Ultraviolet Light Sterilization?",
+    description:
+      "It uses UV light to kill bacteria, viruses, and other pathogens in water. ",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      " Water passes through a chamber exposed to UV light, sterilizing it without chemicals.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it safe?",
+    description:
+      "Yes, UV light is a chemical-free and environmentally friendly method of disinfection. ",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Does it require maintenance?",
+    description:
+      "Minimal maintenance; change the UV bulb annually for optimal performance.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How effective is it?",
+    description:
+      "Highly effective in neutralizing up to 99.9% of waterborne pathogens. ",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  
+];
+
+export const FaqDisInfaction = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is Disinfection Filtration? ",
+    description:
+      "It combines filtration and disinfection to remove contaminants and pathogens from water. ",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      "Water is filtered through a system, then exposed to disinfection methods like UV light or chemicals to kill bacteria and viruses. ",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it safe?",
+    description:
+      "Yes, it provides clean water by eliminating harmful microorganisms without harmful chemicals.",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Does it require maintenance?",
+    description:
+      " Regular maintenance includes changing filters and disinfecting components as needed. ",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How effective is it?",
+    description:
+      " Highly effective, removing up to 99.9% of contaminants and pathogens from water.",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  
+];
+
+export const FaqDrinkingD = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is the D550? ",
+    description:
+      "A reverse osmosis system that removes up to 99% of contaminants for pure drinking water.",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      "Water is filtered through multiple stages, including reverse osmosis, to ensure clean, safe drinking water. ",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it easy to install?",
+    description:
+      "Yes, it’s designed for easy installation under most kitchen sinks with basic plumbing. ",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What maintenance is required?",
+    description:
+      " Change filters and the RO membrane as recommended for optimal performance.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: " How long do the filters last? ",
+    description:
+      "  Filters last 6-12 months, and the RO membrane lasts 2-3 years. ",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  {
+    id: 6,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it certified? ",
+    description:
+      " Yes, the D550 meets industry water filtration standards. ",
+    delay: "500ms",
+    duration: "1000ms",
+  },
+  
+];
+
+export const FaqDrinkingR = [
+  {
+    id: 1,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What is the R450?",
+    description:
+      "A reverse osmosis system that provides ultra-pure drinking water.",
+    delay: "0ms",
+    duration: "1000ms",
+    open: "active",
+  },
+  {
+    id: 2,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "How does it work? ",
+    description:
+      " Uses multi-stage filtration, including RO, to purify water.",
+      delay: "100ms",
+      duration: "1000ms",
+  },
+  {
+    id: 3,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it easy to install?",
+    description:
+      "Yes, it installs easily under most kitchen sinks. ",
+    delay: "200ms",
+    duration: "1000ms",
+  },
+  {
+    id: 4,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "What maintenance is required?",
+    description:
+      "Change filters and the RO membrane as recommended.",
+    delay: "300ms",
+    duration: "1000ms",
+  },
+  {
+    id: 5,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: " How long do the filters last? ",
+    description:
+      "  Filters last 6-12 months; RO membrane lasts 2-3 years. ",
+    delay: "400ms",
+    duration: "1000ms",
+  },
+  {
+    id: 6,
+    image: "/assets/images/resources/faq-v1-img1.jpg",
+    alt: "Faq",
+    heading: "Is it certified? ",
+    description:
+      " Yes, it meets industry water filtration standards. ",
+    delay: "500ms",
+    duration: "1000ms",
+  },
+  
+];

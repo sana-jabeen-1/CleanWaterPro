@@ -2,8 +2,42 @@ import Image from "next/image";
 import Link from "next/link";
 import { ProductsPurification, ServicePurification } from "@/data/service";
 import { ProductsFiltration } from "@/data/service";
+import { FaqPurification } from "@/data/faq";
+import { useEffect } from "react";
 
 const Waterpurification = () => {
+
+   useEffect(() => {
+    if ($(".accrodion-grp").length) {
+      var accrodionGrp = $(".accrodion-grp");
+      accrodionGrp.each(function () {
+        var accrodionName = $(this).data("grp-name");
+        var Self = $(this);
+        var accordion = Self.find(".accrodion");
+        Self.addClass(accrodionName);
+        Self.find(".accrodion .accrodion-content").hide();
+        Self.find(".accrodion.active").find(".accrodion-content").show();
+        accordion.each(function () {
+          $(this)
+            .find(".accrodion-title")
+            .on("click", function () {
+              if ($(this).parent().hasClass("active") === false) {
+                $(".accrodion-grp." + accrodionName)
+                  .find(".accrodion")
+                  .removeClass("active");
+                $(".accrodion-grp." + accrodionName)
+                  .find(".accrodion")
+                  .find(".accrodion-content")
+                  .slideUp();
+                $(this).parent().addClass("active");
+                $(this).parent().find(".accrodion-content").slideDown();
+              }
+            });
+        });
+      });
+    }
+  }, []);
+
   return (
     <>
       <section className="service-details">
@@ -42,12 +76,12 @@ const Waterpurification = () => {
 
           <div className="service-details__bottom">
             <h2 className="service-details__bottom-title">
-              Water Purification
+              Water Purification Solutions for Your Home in Dallas, TX | Clean Water Pro LLC
             </h2>
             <p>
-                With the Westinghouse Dynamic Series at the heart of your home’s
-                water system, prepare to witness a remarkable transformation.
-                Bid farewell to the frustrations of hard water as clothes.
+                At Clean Water Pro LLC, we specialize in providing expert water purification services in Dallas, TX, ensuring that you and your family have access to clean, safe, and healthy water. We offer customized water purification systems for home Dallas,
+                 TX, designed to address various water quality issues such as chlorine, heavy metals,
+                 bacteria, sediments, and odors.
               </p>
             {/* <div className="service-details__bottom-text1">
               <p>
@@ -70,12 +104,13 @@ const Waterpurification = () => {
                
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3> WaterPurification works</h3>
+                    <h3> </h3>
               <p>
-                Before water can enter your home, it must first pass through
-                your Westinghouse water treatment system.
+                Dallas homes often experience issues with tap water quality, ranging from chemical contamination to sediment buildup. Our team at Clean Water Pro LLC offers comprehensive solutions to address these concerns. Whether you're using municipal water or relying on well water, we have a variety of systems tailored to meet your needs. From point-of-use filters to whole house water purification systems Dallas, TX, our solutions provide purified water for drinking,
+                 cooking, bathing, and every other use in your home.<br />
+                 With Clean Water Pro LLC, you can trust that your water is free from harmful impurities. Our water purification systems Dallas, TX are designed to target a wide range of contaminants, providing the best possible water quality for you and your family.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <strong>Unconditioned Water:</strong> enters the mineral tank,
                   coming into contact with specialized media that separate
@@ -91,7 +126,7 @@ const Waterpurification = () => {
                   into the home.
                 </li>
               </ul>
-               
+                */}
                     {/* <h3>Pioneering Technology for Thorough Purification</h3>
                     <p>
                       At the core of the Dynamic Series lies a pioneering
@@ -118,15 +153,10 @@ const Waterpurification = () => {
             </div>
 
             <div className="service-details__bottom-text2">
-              <h3>Say Goodbye to Hard Water Woes</h3>
+              <h3>Tailored Water Filtration Systems for All Your Needs</h3>
               <p>
-                With the Westinghouse Dynamic Series at the heart of your home’s
-                water system, prepare to witness a remarkable transformation.
-                Bid farewell to the frustrations of hard water as clothes and
-                linens become noticeably softer, brighter, and more durable.
-                Annoying water spots, appliance scaling, stubborn soap scum—all
-                become distant memories, thanks to the dynamic purification
-                power of the Dynamic Series.
+                At Clean Water Pro LLC, we understand that every home has unique water quality needs. That’s why we offer a variety of water purification systems Dallas, TX, each designed to address specific concerns. Whether you need a whole house filtration system or targeted purification 
+                for specific sources, we’ve got you covered.
               </p>
             </div>
             <div className="service-details__bottom-text3 ">
@@ -141,16 +171,18 @@ const Waterpurification = () => {
                 </div>
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3>Innovation at Its Finest</h3>
+                    <h3>Whole House Water Purification System Dallas, TX</h3>
                     <p>
-                      But the benefits of the Westinghouse Dynamic Series extend
-                      far beyond clean water. Encased in a sleek, contemporary
-                      stainless-steel design, this system is a beacon of
-                      innovation. Featuring EcoFlow regeneration, proportional
-                      cleaning, and demand metering, along with a true-flow
-                      media, it sets new standards in water conservation and
-                      efficiency, significantly extending the lifespan of
-                      filtering media.
+                      Our whole house water purification systems Dallas, TX filter all the water entering your home, ensuring that every faucet provides purified water. These systems are ideal for families looking for an all-encompassing solution to remove contaminants like chlorine, heavy metals, sediments, and organic chemicals. With our full house water purification systems Dallas,
+                       TX, you can enjoy clean water throughout your home without the hassle of installing multiple point-of-use filters.
+                    </p>
+                    <br/>
+                    <h3>Water Purification Systems for Well Water Dallas, TX</h3>
+                    <p>
+                      For homes using well water, we offer specialized water purification systems for well water Dallas, TX.
+                       Well water can contain higher levels of iron, sulfur, bacteria, and other impurities. Our customized systems are designed to tackle these specific contaminants,
+                        ensuring your well water is free from unpleasant odors, staining, and potential health risks.
+
                     </p>
 
                     {/* <h3>Pioneering Technology for Thorough Purification</h3>
@@ -174,18 +206,30 @@ const Waterpurification = () => {
             <div className="service-details__how-it-works">
                         
                          </div>
+                          <h3>Why Choose Clean Water Pro LLC?</h3>
                          <p style={{ marginTop: "20px", textAlign: "left" }}>
-                           Transform Your Home’s Water Quality with the Westinghouse
-                           Dynamic Series Water Refiner from Clean Water Pro’s <br />
-                           Elevate your home’s water quality to new heights with the
-                           Westinghouse Dynamic Series Water Refiner. This state-of-the-art
-                           whole house refining system promises nothing short of
-                           consistently superior water for you and your family. Crafted
-                           with precision and designed to operate seamlessly around the
-                           clock, this sophisticated system ensures that every tap in your
-                           home delivers nothing but the most refined, clean, and soft
-                           water imaginable.
+                           Clean Water Pro LLC is the trusted water purification service provider Dallas, TX, with years of experience in delivering high-quality filtration systems that cater to the diverse needs of our clients.
+                            Here’s why we stand out:
                          </p>
+                           <ul>
+                <li>
+                  <strong>Expert Knowledge and Experience:</strong> Our team is highly skilled and experienced in designing, installing, and maintaining water purification systems Dallas, TX. We understand the unique water quality challenges faced by homeowners in Dallas, whether from municipal or well water sources.
+
+                </li>
+                <li>
+                  <strong>Customized Solutions:</strong>  We don’t offer one-size-fits-all systems. Whether you need a whole house water purification system Dallas, TX, or a more specific water purification system for well water Dallas, TX, we work with you to determine the best solution tailored to your needs.
+
+                </li>
+                <li>
+                  <strong>Quality and Reliability:</strong>  At Clean Water Pro LLC, we use only the highest quality filtration systems that are designed to last. Our water purification systems Dallas, TX are built to provide reliable, long-term performance, giving you peace of mind knowing your water is always clean.
+
+                </li>
+                <li>
+                  <strong>Easy Maintenance and Support:</strong>  Our filtration systems are designed for simple maintenance, and our team is always available to provide ongoing support to ensure your system operates efficiently.
+
+                </li>
+              </ul>
+               
                          <div
                            style={{
                              display: "flex",
@@ -205,8 +249,11 @@ const Waterpurification = () => {
                              }}
                            />
                          </div>
-                       
-           
+                         <p>
+                      Trust Clean Water Pro LLC to deliver effective, long-lasting solutions for all your water purification needs in Dallas, TX.
+                       Contact us today to get started and improve the quality of your water!
+                    </p>
+                        
         </div>
         
         <style jsx>
@@ -246,7 +293,7 @@ const Waterpurification = () => {
         </style>
       </section>
       <div className="service-details__how-it-works" style={{ textAlign: 'center', padding: '35px'}}>
-              <h3>Benefits of the Water Filtration</h3>
+              <h3>Benefits of the Water Purification</h3>
               </div>
      
       <div className="row" style={{ display: 'flex' , flexWrap: 'wrap' , marginTop: '45px' }}>
@@ -334,6 +381,73 @@ const Waterpurification = () => {
     </div>
   ))}
 </div>
+
+ <section className="faq-one pd-120-0-120">
+        <div className="container">
+          <div className="section-title__style2">
+            <div className="section-title">
+              <span className="section-title__tagline section-title__title">
+                Frequently Asked Questions
+              </span>
+            </div>
+            <div className="text-box">
+              <p>
+                At Clean Water Pro’s, we are committed to providing high-quality
+                water filtration solutions that ensure safe, clean, and healthy
+                water for your home or business. Our services range from
+                advanced water purification systems to efficient maintenance,
+                all designed to improve the quality of your water and your
+                overall well-being.
+              </p>
+            </div>
+          </div>
+          
+              <div className="faq-one__content">
+                <div className="faq-one__faq">
+                  <div
+                    className="accrodion-grp faq-one-accrodion"
+                    data-grp-name="faq-one-accrodion-1"
+                  >
+                    {FaqPurification.map((item, i) => (
+                      <div
+                        key={i}
+                        className={`accrodion wow fadeInUp ${item.open}`}
+                        data-wow-delay={item.delay}
+                        data-wow-duration={item.duration}
+                      >
+                        <div className="accrodion-title">
+                          <div className="accrodion-title-inner">
+                            <div className="icon">
+                              <span className="icon-maps-and-flags"></span>
+                            </div>
+                            <div className="text">
+                              <h4>{item.heading}</h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="accrodion-content">
+                          <div className="">
+                            {/* <div className="img-box">
+                              <img src={item.image} alt={item.alt} />
+                            </div> */}
+                            <div className="text">
+                              <p>{item.description}</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* End Faq One Content */}
+
+            {/* Start Faq One Img */}
+            
+            {/* End Faq One Img */}
+          
+      </section>
     </>
   );
 };

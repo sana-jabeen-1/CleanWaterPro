@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ServiceFilration } from "@/data/service";
 import { ProductsFiltration } from "@/data/service";
-import { FaqOneData} from "@/data/faq";
+import { FaqFiltration } from "@/data/faq";
 import { useEffect } from "react";
 
 const WaterFiltration = () => {
@@ -37,7 +37,6 @@ const WaterFiltration = () => {
       });
     }
   }, []);
-
 
   return (
     <>
@@ -77,12 +76,12 @@ const WaterFiltration = () => {
 
           <div className="service-details__bottom">
             <h2 className="service-details__bottom-title">
-              Water Filtration
+              Reliable Water Filtration Solutions by Clean Water Pro LLC in Dallas, TX
+
             </h2>
             <p>
-                With the Westinghouse Dynamic Series at the heart of your home’s
-                water system, prepare to witness a remarkable transformation.
-                Bid farewell to the frustrations of hard water as clothes.
+                If you're searching for water filtration services in Dallas, TX, Clean Water Pro LLC offers reliable solutions that ensure your home or business enjoys clean, purified water. 
+              .
               </p>
             {/* <div className="service-details__bottom-text1">
               <p>
@@ -105,12 +104,15 @@ const WaterFiltration = () => {
                
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3> WaterPurification works</h3>
+                    <h3> </h3>
               <p>
-                Before water can enter your home, it must first pass through
-                your Westinghouse water treatment system.
+                Our services include water purification services in Dallas, TX, designed to remove harmful contaminants, improving both the taste and safety of your water. Whether you're in need of home water filtration service in Dallas, TX or commercial water filtration service companies near me 
+                we’ve got you covered with top-notch systems tailored to your needs
+                We are a trusted water filtration service company in Dallas, TX, offering a variety of customizable options for your home or business. Our water treatment services in Dallas, TX include whole home water filtration services in Dallas, TX, ensuring that every tap in your home provides safe and clean water.
+                 Whether you're searching for water filtration system maintenance services in Dallas, TX or need a new water filtration system company,
+                 our experts at Clean Water Pro LLC will help you find the right solution.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <strong>Unconditioned Water:</strong> enters the mineral tank,
                   coming into contact with specialized media that separate
@@ -125,7 +127,7 @@ const WaterFiltration = () => {
                   the contaminants that were removed from the water on its way
                   into the home.
                 </li>
-              </ul>
+              </ul> */}
                
                     {/* <h3>Pioneering Technology for Thorough Purification</h3>
                     <p>
@@ -153,15 +155,10 @@ const WaterFiltration = () => {
             </div>
 
             <div className="service-details__bottom-text2">
-              <h3>Say Goodbye to Hard Water Woes</h3>
+              <h3>Comprehensive Water Filtration and Purification for Homes and Businesses</h3>
               <p>
-                With the Westinghouse Dynamic Series at the heart of your home’s
-                water system, prepare to witness a remarkable transformation.
-                Bid farewell to the frustrations of hard water as clothes and
-                linens become noticeably softer, brighter, and more durable.
-                Annoying water spots, appliance scaling, stubborn soap scum—all
-                become distant memories, thanks to the dynamic purification
-                power of the Dynamic Series.
+                When it comes to your home’s water, having a home water filtration system near me is essential for maintaining good health. Our home water filtration services in Dallas, TX, at Clean Water Pro LLC, include everything from installation to regular water filtration system maintenance services. We provide advanced filtration systems that remove a wide range of contaminants including chlorine, sediment, and lead, offering you cleaner water for drinking, cooking, and bathing.
+
               </p>
             </div>
             <div className="service-details__bottom-text3 ">
@@ -176,16 +173,12 @@ const WaterFiltration = () => {
                 </div>
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3>Innovation at Its Finest</h3>
+                    <h3></h3>
                     <p>
-                      But the benefits of the Westinghouse Dynamic Series extend
-                      far beyond clean water. Encased in a sleek, contemporary
-                      stainless-steel design, this system is a beacon of
-                      innovation. Featuring EcoFlow regeneration, proportional
-                      cleaning, and demand metering, along with a true-flow
-                      media, it sets new standards in water conservation and
-                      efficiency, significantly extending the lifespan of
-                      filtering media.
+                      Our water purification services in Dallas, TX are designed to tackle common issues in city or well water, removing impurities like chlorine, chloramines, bacteria, and more. Clean Water Pro LLC offers tailored solutions that suit the needs of different homes and businesses, ensuring you get the purest water possible. If you're looking for water filtration services near me,
+                       we provide high-quality systems designed to fit your lifestyle.<br/>
+                       For businesses in need of clean water, our commercial water filtration service companies near me specialize in providing reliable, large-scale filtration systems. Whether you run a restaurant, hotel, or other commercial establishment, Clean Water Pro LLC offers water treatment services in Dallas, TX, to ensure your customers and staff have access to clean, safe water. Our commercial systems are designed for efficiency and long-lasting performance, helping you save on maintenance and water costs in the long run.
+
                     </p>
 
                     {/* <h3>Pioneering Technology for Thorough Purification</h3>
@@ -209,17 +202,19 @@ const WaterFiltration = () => {
             <div className="service-details__how-it-works">
                         
                          </div>
+                         <h3>Efficient Maintenance and Reliable Filtration Systems for Homes and Businesses</h3>
                          <p style={{ marginTop: "20px", textAlign: "left" }}>
-                           Transform Your Home’s Water Quality with the Westinghouse
-                           Dynamic Series Water Refiner from Clean Water Pro’s <br />
-                           Elevate your home’s water quality to new heights with the
-                           Westinghouse Dynamic Series Water Refiner. This state-of-the-art
-                           whole house refining system promises nothing short of
-                           consistently superior water for you and your family. Crafted
-                           with precision and designed to operate seamlessly around the
-                           clock, this sophisticated system ensures that every tap in your
-                           home delivers nothing but the most refined, clean, and soft
-                           water imaginable.
+                           Are you in need of a water filtration system company near me? Clean Water Pro LLC offers a variety of systems, 
+                           including whole home water filtration services in Dallas, TX, that address the needs of every home. Whether you have city water or a private well,
+                            we have the right filtration technology to give you the clean water you deserve.<br/>
+                            For a water filtration system to perform at its best, regular maintenance is key. Clean Water Pro LLC offers water filtration system maintenance services in Dallas,
+                             TX, to ensure your system is running smoothly, catching any issues early on to prevent costly repairs. From routine filter changes to system inspections, 
+                             our experts will keep your system in top shape, providing you with fresh, clean water all year long.<br />
+                             Looking for trusted water filtration service companies in Dallas, TX? Clean Water Pro LLC is a leading provider of filtration systems that remove harmful chemicals and impurities from your water supply. 
+                             Our systems are built to last, offering long-term protection for your home and health. Whether you need a whole-house system or a point-of-use filter, we have options that fit your needs.
+
+
+
                          </p>
                          <div
                            style={{
@@ -395,7 +390,7 @@ const WaterFiltration = () => {
                     className="accrodion-grp faq-one-accrodion"
                     data-grp-name="faq-one-accrodion-1"
                   >
-                    {FaqOneData.map((item, i) => (
+                    {FaqFiltration.map((item, i) => (
                       <div
                         key={i}
                         className={`accrodion wow fadeInUp ${item.open}`}

@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import { FaqOneData} from "@/data/faq";
+
 import { useEffect } from "react";
+import { FaqQualitair } from "@/data/faq";
 
 const QualitAir = () => {
 
@@ -250,7 +251,7 @@ const QualitAir = () => {
                           className="accrodion-grp faq-one-accrodion"
                           data-grp-name="faq-one-accrodion-1"
                         >
-                          {FaqOneData.map((item, i) => (
+                          {FaqQualitair.map((item, i) => (
                             <div
                               key={i}
                               className={`accrodion wow fadeInUp ${item.open}`}

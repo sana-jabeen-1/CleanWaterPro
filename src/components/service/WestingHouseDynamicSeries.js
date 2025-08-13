@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaqOneData} from "@/data/faq";
+import { FaqWestingHouse } from "@/data/faq";
 import { useEffect } from "react";
 
 const WestingHouseDynamicSeries = () => {
@@ -297,7 +297,7 @@ useEffect(() => {
                           className="accrodion-grp faq-one-accrodion"
                           data-grp-name="faq-one-accrodion-1"
                         >
-                          {FaqOneData.map((item, i) => (
+                          {FaqWestingHouse.map((item, i) => (
                             <div
                               key={i}
                               className={`accrodion wow fadeInUp ${item.open}`}

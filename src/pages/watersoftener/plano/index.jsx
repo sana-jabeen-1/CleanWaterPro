@@ -6,6 +6,8 @@ import CountyCard from "@/components/locations/CountyCard";
 import Products from "@/components/locations/Products";
 import ServiceOne from "@/components/service/ServiceOne";
 import WaterSoftener from "@/components/service/WaterSoftener";
+import WaterSoftenerPlano from "@/components/service/WaterSoftenerPlano";
+
 
 const Plano = () => {
   const counties = [
@@ -30,7 +32,7 @@ const Plano = () => {
         banner="/assets/images/states/plano.webp"
         mobileBanner="/assets/images/states/plano.webp"
       />
-      <WaterSoftener />
+      <WaterSoftenerPlano />
       <FooterOne />
     </div>
   );

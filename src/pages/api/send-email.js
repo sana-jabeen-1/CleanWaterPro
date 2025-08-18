@@ -61,7 +61,9 @@ export default async function handler(req, res) {
         pass: process.env.EMAIL_PASS, // Your Gmail app-specific password (again, using environment variables for security)
       },
     });
-
+   
+    console.log('API hit:', req.body);
+    await transporter.verify(); // remove after testing
     // console.log("SMTP Transporter configured:", {
     //   user: process.env.EMAIL_USER,
     //   pass: process.env.EMAIL_PASS, // Don't log the actual password for security purposes

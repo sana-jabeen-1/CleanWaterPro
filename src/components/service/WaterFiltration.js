@@ -173,7 +173,7 @@ const WaterFiltration = () => {
                 </div>
                 <div className="col-xl-8 col-lg-7">
                   <div className="content-box">
-                    <h3></h3>
+                    <h3> Our water purification services in Dallas</h3>
                     <p>
                       Our water purification services in Dallas, TX are designed to tackle common issues in city or well water, removing impurities like chlorine, chloramines, bacteria, and more. Clean Water Pro LLC offers tailored solutions that suit the needs of different homes and businesses, ensuring you get the purest water possible. If you're looking for water filtration services near me,
                        we provide high-quality systems designed to fit your lifestyle.<br/>
@@ -199,12 +199,16 @@ const WaterFiltration = () => {
             </div>
             
           </div>
-            <div className="service-details__how-it-works">
-                        
-                         </div>
-                         <h3>Efficient Maintenance and Reliable Filtration Systems for Homes and Businesses</h3>
-                         <p style={{ marginTop: "20px", textAlign: "left" }}>
-                           Are you in need of a water filtration system company near me? Clean Water Pro LLC offers a variety of systems, 
+            
+            <div className="service-details__bottom-text3 ">
+              <div className="row">
+               
+                <div className="col-xl-8 col-lg-7">
+                  <div className="content-box">
+                    
+               <h3>Efficient Maintenance and Reliable Filtration Systems for Homes and Businesses</h3>
+              <p>
+                Are you in need of a water filtration system company near me? Clean Water Pro LLC offers a variety of systems, 
                            including whole home water filtration services in Dallas, TX, that address the needs of every home. Whether you have city water or a private well,
                             we have the right filtration technology to give you the clean water you deserve.<br/>
                             For a water filtration system to perform at its best, regular maintenance is key. Clean Water Pro LLC offers water filtration system maintenance services in Dallas,
@@ -212,21 +216,43 @@ const WaterFiltration = () => {
                              our experts will keep your system in top shape, providing you with fresh, clean water all year long.<br />
                              Looking for trusted water filtration service companies in Dallas, TX? Clean Water Pro LLC is a leading provider of filtration systems that remove harmful chemicals and impurities from your water supply. 
                              Our systems are built to last, offering long-term protection for your home and health. Whether you need a whole-house system or a point-of-use filter, we have options that fit your needs.
-
-
-
-                         </p>
-                         <div
-                           style={{
-                             display: "flex",
-                             justifyContent: "center",
-                             alignItems: "center",
-                             width: "100%",
-                           }}
-                         >
-                           <Image
+              </p>
+              {/* <ul>
+                <li>
+                  <strong>Unconditioned Water:</strong> enters the mineral tank,
+                  coming into contact with specialized media that separate
+                  contaminants from the water.
+                </li>
+                <li>
+                  <strong>Clean, Treated Water:</strong> is distributed
+                  throughout the home.
+                </li>
+                <li>
+                  <strong>Backwash Water Flow:</strong> cleanses the media of
+                  the contaminants that were removed from the water on its way
+                  into the home.
+                </li>
+              </ul> */}
+               
+                    {/* <h3>Pioneering Technology for Thorough Purification</h3>
+                    <p>
+                      At the core of the Dynamic Series lies a pioneering
+                      seven-step cleaning sequence. Highlighted by a
+                      revolutionary process where a low electric current is
+                      passed through two titanium plates, this system creates a
+                      powerful decontamination solution. This unique feature
+                      ensures that your water isn’t just softened but thoroughly
+                      purified, providing you with the highest possible quality
+                      with every drop.
+                    </p> */}
+                    
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-5">
+                  <div className="img-box">
+                    <Image
                              width={500}
-                             height={350}
+                             height={500}
                              src="/assets/images/resources/service-details-img7.webp"
                              alt="How it Works Process 2"
                              style={{
@@ -234,7 +260,10 @@ const WaterFiltration = () => {
                                marginTop: "20px",
                              }}
                            />
-                         </div>
+                  </div>
+                </div>
+              </div>
+            </div>            
                        
            
         </div>
@@ -315,7 +344,7 @@ const WaterFiltration = () => {
             ))}
           </div>
 
-<div className="service-details__how-it-works" style={{ textAlign: 'center', padding: '35px'}}>
+<div className="service-details__how-it-works" style={{ textAlign: 'center', paddingTop: '15px', marginBottom: '30px'}}>
               <h3>Product Reviews</h3>
               </div>
 <div className="roww" style={{ display: 'flex', flexWrap: 'nowrap',  overflowX: 'auto', marginTop:'5px' }}>
@@ -364,7 +393,7 @@ const WaterFiltration = () => {
     </div>
   ))}
 </div>
- <section className="faq-one pd-120-0-120">
+ <section className="faq-one pd-50-0-80">
         <div className="container">
           <div className="section-title__style2">
             <div className="section-title">
